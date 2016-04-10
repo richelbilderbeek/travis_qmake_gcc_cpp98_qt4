@@ -9,4 +9,4 @@ before_script:
 
 script: 
  - ./build.sh
- - ./travis_qmake_gcc_cpp98_qt
+ - ./travis_qmake_gcc_cpp98_qt4

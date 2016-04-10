@@ -10,7 +10,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Build system: `qmake`
  * C++ compiler: `gcc`
  * C++ version: `C++98`
- * Libraries: `STL` and `Qt`
+ * Libraries: `STL` and `Qt` (both Qt4 and Qt5)
  * Code coverage: none
  * Source: QDialog with Qt resource file
 
@@ -21,3 +21,5 @@ More complex builds:
 
 Less complex builds:
  * STL only: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
+ * Only Qt4: [travis_qmake_gcc_cpp98_qt4](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt4)
+ * Only Qt5: [travis_qmake_gcc_cpp98_qt5](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt5)

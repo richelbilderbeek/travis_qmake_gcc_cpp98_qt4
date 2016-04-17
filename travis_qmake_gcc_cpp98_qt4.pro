@@ -1,7 +1,7 @@
-QT       += core gui
+QT += core gui
 
 # Cannot use -Weffc++ with Qt4
-QMAKE_CXXFLAGS += -Wall -Wextra  -Werror
+QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 
 SOURCES += main.cpp
 SOURCES += my_dialog.cpp

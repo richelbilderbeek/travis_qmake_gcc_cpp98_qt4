@@ -2,17 +2,10 @@ language: cpp
 compiler: gcc
 dist: xenial
 
-# Xenial
 services:
   - xvfb
 
-# Trusty
-# Start virtual X server
-# before_script:
-#  - "export DISPLAY=:99.0"
-#  - "sh -e /etc/init.d/xvfb start"
-#  - sleep 3 # give xvfb some time to start
-
 script: 
- - ./build.sh
+ - qmake-qt4
+ - make
  - ./travis_qmake_gcc_cpp98_qt4
